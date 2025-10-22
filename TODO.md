@@ -1,0 +1,5 @@
+- [x] Add questions state and useEffect to fetch questions on mount in App.js
+- [x] Pass questions and setQuestions to QuestionList and QuestionForm in App.js
+- [x] Update QuestionList to receive props and render QuestionItem components with onDelete and onUpdateCorrect handlers
+- [x] Update QuestionItem to handle delete (DELETE fetch, remove from state) and correct answer change (PATCH fetch, update state)
+- [x] Update QuestionForm to handle submit (POST fetch, add to state)
